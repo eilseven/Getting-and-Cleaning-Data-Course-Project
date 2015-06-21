@@ -8,7 +8,7 @@ Details: The purpose of this project is to demonstrate your ability to collect, 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-Data for the ptoject: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 What should be done?:
 An R script called run_analysis.R must be created, which does the following:
@@ -42,12 +42,12 @@ The new dataset "extracted" requires being "activity" and "subject" labels.
 
 Lines 55-60: Step 4 - Labels the dataset appropriately.
 Labels are renamed accordingly: 
-"t" at the beginning of a line is renamed as "time"
-"f" at the beginning of a line is renamed as "freq"
-"gravity" is renamed as "Gravity"
-"[Bb]ody[Bb]ody" is renamed as "Body"
-"-" character is changed to "."
-"()" characters is changed to ""
+"t" at the beginning of a line is renamed as "time".
+"f" at the beginning of a line is renamed as "freq".
+"gravity" is renamed as "Gravity".
+"[Bb]ody[Bb]ody" is renamed as "Body".
+"-" character is changed to ".".
+"()" characters is changed to "".
 
 Lines 63-64: Step 5 - Creates the tidy dataset.
-Tidy data is created under the name "tidyData" and can be found at "tidyData.txt"
+Tidy data is created under the name "tidyData" and can be found at "tidyData.txt".
